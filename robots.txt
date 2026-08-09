@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://abdulrab.github.io/sitemap.xml
