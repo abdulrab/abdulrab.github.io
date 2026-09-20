@@ -1,0 +1,99 @@
+MAT-315 Numerical Analysis-I                                                             Quiz 1 - Fall 2026
+
+
+                               SUKKUR IBA UNIVERSITY
+                                    Department of Mathematics
+                          MAT-315: Numerical Analysis-I
+                                                     Quiz 1
+    Semester:        Fall 2026                                  Duration:      2 Hours
+    Instructor:      Abdul Rab Chachar                          Total Marks:   40
+    Scope:           Sections 1.1, 2.1, 2.2, 2.3                Text:          Burden & Faires, 9th ed.
+
+
+ Name                                                        CMS ID
+ Signature                                                   Date
+
+Instructions
+   1. Attempt all questions. Show the formula, intermediate steps, iteration values, and final conclusion.
+   2. Use at least six significant decimal digits in intermediate numerical work unless stated otherwise.
+   3. A non-programmable scientific calculator is permitted. Phones, CAS, Python, MATLAB, and
+      stored programs are not permitted.
+   4. Unsupported numerical answers may receive limited credit. State the theorem or error bound
+      whenever it is requested.
+
+Question 1 - Calculus foundations and Taylor approximation                                      [8 marks]
+
+ (a) Let
+                                                   f (x) = x3 + x − 1.
+      Show that the equation f (x) = 0 has exactly one solution in the interval [0, 1]. Your argument
+      must clearly identify the theorem used for existence and justify uniqueness.          [3 marks]
+ (b) For f (x) = ln x, find the third Taylor polynomial P3 (x) about x0 = 1. Use it to approximate
+     ln(1.2), and then use Taylor’s remainder formula to obtain an upper bound for
+
+                                                   |ln(1.2) − P3 (1.2)| .
+
+                                                                                                [5 marks]
+
+Question 2 - Bisection method                                                                  [10 marks]
+Consider
+                                              f (x) = x3 + x − 4
+on the interval [1, 2].
+
+ (a) Verify that the hypotheses required to begin the Bisection Method are satisfied.           [1 marks]
+ (b) Using Theorem 2.1, determine the minimum number of bisection iterations that guarantees an
+     approximation with absolute error less than 10−3 .                              [2 marks]
+ (c) Starting with a1 = 1 and b1 = 2, perform the first five bisection iterations. For each iteration show
+     an , bn , the midpoint pn , and the sign of f (pn ).                                       [5 marks]
+ (d) Give the guaranteed error bound for p5 supplied by Theorem 2.1.                            [2 marks]
+
+
+                                                         1
+
+
+================ PAGE BREAK ================
+
+MAT-315 Numerical Analysis-I                                                            Quiz 1 - Fall 2026
+
+
+Question 3 - Fixed-point iteration                                                            [10 marks]
+The equation
+                                              x3 − x − 2 = 0
+can be written in fixed-point form as
+
+                                          x = g(x) = (x + 2)1/3 .
+
+Use the interval [1, 2] and the initial approximation p0 = 1.5.
+
+ (a) Use Theorem 2.3 to show that g has a unique fixed point in [1, 2]. In particular, verify that
+     g([1, 2]) ⊆ [1, 2] and find a constant k < 1 such that |g ′ (x)| ≤ k on (1, 2).   [4 marks]
+ (b) Compute p1 , p2 , p3 , p4 using pn = g(pn−1 ).                                            [3 marks]
+ (c) Using Corollary 2.5 and the bound
+
+                                       |pn − p| ≤ k n max{p0 − a, b − p0 },
+
+      estimate the smallest n that guarantees |pn − p| < 10−4 .                                [3 marks]
+
+Question 4 - Newton, Secant, and False Position methods                                       [12 marks]
+Let
+                                               f (x) = x2 − 5,
+                             √
+whose positive zero is p =       5.
+
+ (a) Starting with p0 = 2, write Newton’s iteration formula for this function and compute p1 and p2 .
+     [4 marks]
+ (b) Starting with p0 = 2 and p1 = 3, use the Secant Method to compute p2 , p3 , p4 .          [3 marks]
+ (c) Starting with the same endpoints 2 and 3, use the Method of False Position to compute the first
+     three false-position approximations p2 , p3 , p4 . Clearly indicate which endpoint is retained after
+     each step.                                                                               [3 marks]
+            √
+ (d) Using 5 ≈ 2.2360679775, compare the absolute errors in the Secant and False Position values of
+     p4 . Which is closer? State one conceptual difference between the two methods.           [2 marks]
+
+
+                             End of Quiz - Check your work before submission.
+
+
+                                                      2
+
+
+================ PAGE BREAK ================
