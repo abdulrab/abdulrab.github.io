@@ -1,5 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url><loc>https://abdulrab.github.io/</loc></url><url><loc>https://abdulrab.github.io/research.html</loc></url><url><loc>https://abdulrab.github.io/teaching.html</loc></url><url><loc>https://abdulrab.github.io/books.html</loc></url><url><loc>https://abdulrab.github.io/cv.html</loc></url><url><loc>https://abdulrab.github.io/contact.html</loc></url><url><loc>https://abdulrab.github.io/courses/</loc></url>
-<url><loc>https://abdulrab.github.io/courses/numerical-analysis-i.html</loc></url><url><loc>https://abdulrab.github.io/courses/quantitative-reasoning-ii.html</loc></url><url><loc>https://abdulrab.github.io/courses/applied-mathematics.html</loc></url><url><loc>https://abdulrab.github.io/courses/math-content-iii.html</loc></url><url><loc>https://abdulrab.github.io/courses/linear-algebra-ii.html</loc></url><url><loc>https://abdulrab.github.io/courses/foundation-mathematics.html</loc></url><url><loc>https://abdulrab.github.io/courses/differential-equations.html</loc></url><url><loc>https://abdulrab.github.io/courses/probability-statistics.html</loc></url><url><loc>https://abdulrab.github.io/courses/calculus-analytical-geometry.html</loc></url><url><loc>https://abdulrab.github.io/courses/math-content-ii.html</loc></url>
+<url><loc>https://abdulrab.github.io/</loc></url>
+<url><loc>https://abdulrab.github.io/research.html</loc></url>
+<url><loc>https://abdulrab.github.io/teaching.html</loc></url>
+<url><loc>https://abdulrab.github.io/books.html</loc></url>
+<url><loc>https://abdulrab.github.io/cv.html</loc></url>
+<url><loc>https://abdulrab.github.io/contact.html</loc></url>
+<url><loc>https://abdulrab.github.io/courses/numerical-analysis-i.html</loc></url>
+<url><loc>https://abdulrab.github.io/courses/quantitative-reasoning-ii.html</loc></url>
+<url><loc>https://abdulrab.github.io/courses/applied-mathematics.html</loc></url>
+<url><loc>https://abdulrab.github.io/courses/math-content-iii.html</loc></url>
+<url><loc>https://abdulrab.github.io/courses/linear-algebra-ii.html</loc></url>
+<url><loc>https://abdulrab.github.io/courses/foundation-mathematics.html</loc></url>
+<url><loc>https://abdulrab.github.io/courses/differential-equations.html</loc></url>
+<url><loc>https://abdulrab.github.io/courses/probability-statistics.html</loc></url>
+<url><loc>https://abdulrab.github.io/courses/calculus-analytical-geometry.html</loc></url>
+<url><loc>https://abdulrab.github.io/courses/math-content-ii.html</loc></url>
+<url><loc>https://abdulrab.github.io/courses/numerical-analysis-i/materials/</loc></url>
 </urlset>
