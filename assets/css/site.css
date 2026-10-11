@@ -66,3 +66,39 @@ html{scroll-padding-top:90px}
 @media(max-width:850px){.feature-grid{grid-template-columns:1fr}.hero-portrait{max-width:300px}}
 @media(max-width:620px){.highlights-grid,.cv-summary-grid{grid-template-columns:1fr}.mini-book{align-items:flex-start}.hero-portrait{width:min(100%,300px)}.hero-portrait img{height:320px}.featured-book{grid-template-columns:1fr}.site-footer{margin-top:20px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.card,.btn{transition:none!important;transform:none!important}}
+
+/* Homepage layout: wider desktop canvas, compact sections and an uncramped heading.
+   Scoped to the homepage to preserve established interior-page layouts. */
+.home-page .wrap{width:min(calc(100% - 64px),86vw,1740px)}
+.home-page .hero{padding:50px 0 48px}
+.home-page .hero-grid{grid-template-columns:minmax(0,1.2fr) minmax(280px,.8fr);gap:clamp(30px,4.5vw,80px);align-items:center}
+.home-page .hero-portrait{max-width:410px}
+.home-page .hero-portrait img{height:400px}
+.home-page .section{padding:52px 0}
+.home-page .section-head{display:block;margin-bottom:26px}
+.home-page .section-head h2{font-size:clamp(2.1rem,3.3vw,3.35rem);line-height:1.15;letter-spacing:-.035em;text-wrap:balance}
+.home-page .highlights-grid{gap:20px}
+.home-page .highlights-grid .card{padding:26px}
+.home-page .feature-grid{gap:clamp(24px,4vw,64px)}
+.home-page .site-footer{margin-top:0}
+@media(max-width:1050px){
+  .home-page .highlights-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .home-page .highlights-grid .card:last-child{grid-column:1/-1}
+}
+@media(max-width:850px){
+  .home-page .hero-grid{grid-template-columns:1fr;gap:26px}
+  .home-page .hero-portrait{max-width:340px}
+  .home-page .hero-portrait img{height:360px}
+}
+@media(max-width:620px){
+  .home-page .wrap{width:calc(100% - 32px)}
+  .home-page .hero{padding:40px 0 36px}
+  .home-page .section{padding:40px 0}
+  .home-page .section-head{margin-bottom:20px}
+  .home-page .section-head h2{font-size:clamp(2rem,8vw,2.6rem)}
+  .home-page .highlights-grid{grid-template-columns:1fr}
+  .home-page .highlights-grid .card:last-child{grid-column:auto}
+  .home-page .highlights-grid .card{padding:22px}
+  .home-page .hero-portrait{max-width:290px}
+  .home-page .hero-portrait img{height:320px}
+}
