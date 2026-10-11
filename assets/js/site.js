@@ -1,5 +1,1 @@
-
-const toggle=document.querySelector('.nav-toggle');
-const links=document.querySelector('.nav-links');
-if(toggle&&links){toggle.addEventListener('click',()=>{links.classList.toggle('open');toggle.setAttribute('aria-expanded',links.classList.contains('open'));});}
-document.querySelectorAll('[data-year]').forEach(el=>el.textContent=new Date().getFullYear());
+(()=>{const toggle=document.querySelector('.nav-toggle');const links=document.querySelector('.nav-links');if(toggle&&links){const close=()=>{links.classList.remove('open');toggle.setAttribute('aria-expanded','false');toggle.setAttribute('aria-label','Open navigation')};toggle.addEventListener('click',()=>{let open=links.classList.toggle('open');toggle.setAttribute('aria-expanded',String(open));toggle.setAttribute('aria-label',open?'Close navigation':'Open navigation')});links.querySelectorAll('a').forEach(a=>a.addEventListener('click',close));document.addEventListener('keydown',e=>{if(e.key==='Escape'){close();toggle.focus()}});window.addEventListener('resize',()=>{if(window.innerWidth>850)close()})}document.querySelectorAll('[data-year]').forEach(el=>el.textContent=new Date().getFullYear())})();
