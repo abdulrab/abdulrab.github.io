@@ -12,8 +12,14 @@ A custom static academic website designed for GitHub Pages. No Jekyll, Ruby, bui
 - Main biography: `index.html`
 - Research: `research.html`
 - Teaching: `teaching.html`
+- Books and free-download listings: `books.html`; add approved PDFs under `assets/books/`
+- Official course outlines: add approved files to `assets/course-outlines/` and link the relevant course page
+- Verified course list: `assets/js/course-data.js`
 - CV PDF: `assets/cv/Abdul_Rab_CV.pdf`
 - Colors/layout: `assets/css/site.css`
 
 ## Optional upgrades
 Add a Google Scholar and ORCID link when available, and add research figures or code links as projects develop.
+
+## Publishing resources
+The Books page displays forthcoming titles without downloads until author-approved PDFs are supplied. Course outlines are also marked as forthcoming and must not be invented.
