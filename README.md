@@ -22,4 +22,4 @@ A custom static academic website designed for GitHub Pages. No Jekyll, Ruby, bui
 Add a Google Scholar and ORCID link when available, and add research figures or code links as projects develop.
 
 ## Publishing resources
-The Books page displays forthcoming titles without downloads until author-approved PDFs are supplied. Course outlines are also marked as forthcoming and must not be invented.
+The Books page links the published Class XI Mathematics Solution Manual to its Zenodo DOI (10.5281/zenodo.23264017) and displays the original cover thumbnail under `assets/books/class-xi-cover.webp`; Class XII is still forthcoming. External Zenodo downloads should be linked by DOI until an exact file URL is verified. Course outlines are also marked as forthcoming and must not be invented.

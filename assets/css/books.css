@@ -1,0 +1,8 @@
+/* Published books: responsive cover and metadata layout. */
+.book-card{display:grid;grid-template-columns:minmax(140px,195px) minmax(0,1fr);gap:22px;align-items:start}
+.book-cover{display:block;max-width:195px;line-height:0;border:1px solid var(--line);border-radius:10px;overflow:hidden;box-shadow:0 12px 26px rgba(19,35,61,.13)}
+.book-cover img{display:block;width:100%;height:auto;aspect-ratio:155/220;object-fit:cover}
+.book-details h3{margin-top:3px}.book-details p{margin:7px 0 12px;overflow-wrap:anywhere}.book-details .tags{margin:10px 0}
+.book-details .book-footnote{font-size:.8rem;color:var(--muted);margin-top:9px}.book-doi a{color:var(--accent);font-weight:700}
+.book-actions{margin-top:16px}
+@media(max-width:760px){.book-card{grid-template-columns:1fr}.book-cover{max-width:195px}}
