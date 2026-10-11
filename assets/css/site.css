@@ -76,7 +76,7 @@ html{scroll-padding-top:90px}
 .home-page .hero-portrait img{height:400px}
 .home-page .section{padding:52px 0}
 .home-page .section-head{display:block;margin-bottom:26px}
-.home-page .section-head h2{font-size:clamp(2.1rem,3.3vw,3.35rem);line-height:1.15;letter-spacing:-.035em;text-wrap:balance}
+.home-page .section-head h2{font-size:clamp(1.8rem,3.3vw,3.35rem);line-height:1.15;letter-spacing:-.035em;white-space:nowrap;text-wrap:nowrap}
 .home-page .highlights-grid{gap:20px}
 .home-page .highlights-grid .card{padding:26px}
 .home-page .feature-grid{gap:clamp(24px,4vw,64px)}
@@ -95,7 +95,7 @@ html{scroll-padding-top:90px}
   .home-page .hero{padding:40px 0 36px}
   .home-page .section{padding:40px 0}
   .home-page .section-head{margin-bottom:20px}
-  .home-page .section-head h2{font-size:clamp(2rem,8vw,2.6rem)}
+  .home-page .section-head h2{font-size:clamp(1rem,3.7vw,1.5rem);white-space:nowrap;text-wrap:nowrap}
   .home-page .highlights-grid{grid-template-columns:1fr}
   .home-page .highlights-grid .card:last-child{grid-column:auto}
   .home-page .highlights-grid .card{padding:22px}
