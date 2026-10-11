@@ -6,3 +6,7 @@
 .book-details .book-footnote{font-size:.8rem;color:var(--muted);margin-top:9px}.book-doi a{color:var(--accent);font-weight:700}
 .book-actions{margin-top:16px}
 @media(max-width:760px){.book-card{grid-template-columns:1fr}.book-cover{max-width:195px}}
+
+/* Consistent spacing when multiple published book cards are displayed. */
+.book-card + .book-card{margin-top:24px}
+.book-cover:focus-visible{outline-offset:4px}
