@@ -1,14 +1,153 @@
 window.COURSE_DATA={
-"numerical-analysis-i":{title:"Numerical Analysis I",status:"Current · Fall 2026",institution:"Sukkur IBA University",audience:"BS Mathematics · Semester V",summary:"Root-finding, approximation, error analysis, convergence, interpolation, numerical linear algebra, and computational laboratory work in Python.",topics:["Floating-point arithmetic and error","Bisection and fixed-point iteration","Newton and Secant methods","Order of convergence","Interpolation and divided differences","Numerical differentiation","Trapezoidal and Simpson quadrature","Gaussian elimination and LU factorization","Jacobi and Gauss–Seidel iterations"],weeks:[["1","Numerical computation, errors, conditioning","Practice: absolute/relative error; Python warm-up"],["2","Bisection method and stopping criteria","Assignment set; bisection lab"],["3","Fixed-point iteration and convergence","Fixed-point lab; convergence diagnostics"],["4","Newton's method","Newton lab; error sequence and semilogy plots"],["5","Secant method; comparison of root-finders","Secant lab; comparison worksheet"],["6","Order of convergence and computational estimation","Convergence experiment; quiz"],["7","Interpolation: Lagrange form","Worked examples; practice set"],["8","Newton divided differences","Interpolation coding task"],["9","Numerical differentiation","Error/truncation study"],["10","Composite trapezoidal rule","Quadrature lab"],["11","Simpson's rule and error","Quadrature comparison"],["12","Gaussian elimination","Linear-system lab"],["13","LU factorization","LU implementation task"],["14","Jacobi and Gauss–Seidel methods","Iterative-solvers lab and review"]],assessment:"Theory assignments, short quizzes, computational labs, midterm/final assessment, and reproducible Python exercises.",notes:[["Section 1.3","Algorithms and Convergence","na-notes/section-1-3.html"],["Section 2.4","Order of Convergence","na-notes/section-2-4.html"],["Section 4.1","Numerical Differentiation","na-notes/section-4-1.html"],["Section 5.1","Elementary Theory of IVPs","na-notes/section-5-1.html"],["Section 5.2","Euler’s Method","na-notes/section-5-2.html"],["Section 5.4","Runge–Kutta Methods","na-notes/section-5-4.html"],["Section 5.9","Higher-Order Equations and Systems","na-notes/section-5-9.html"]]},
+"numerical-analysis-i":{title:"Numerical Analysis",status:"Summer 2026 · Previously taught",institution:"Sukkur IBA University",audience:"BS Mathematics",summary:"Root-finding, approximation, error analysis, convergence, interpolation, numerical linear algebra, and computational laboratory work in Python.",topics:["Floating-point arithmetic and error","Bisection and fixed-point iteration","Newton and Secant methods","Order of convergence","Interpolation and divided differences","Numerical differentiation","Trapezoidal and Simpson quadrature","Gaussian elimination and LU factorization","Jacobi and Gauss–Seidel iterations"],weeks:[["1","Numerical computation, errors, conditioning","Practice: absolute/relative error; Python warm-up"],["2","Bisection method and stopping criteria","Assignment set; bisection lab"],["3","Fixed-point iteration and convergence","Fixed-point lab; convergence diagnostics"],["4","Newton's method","Newton lab; error sequence and semilogy plots"],["5","Secant method; comparison of root-finders","Secant lab; comparison worksheet"],["6","Order of convergence and computational estimation","Convergence experiment; quiz"],["7","Interpolation: Lagrange form","Worked examples; practice set"],["8","Newton divided differences","Interpolation coding task"],["9","Numerical differentiation","Error/truncation study"],["10","Composite trapezoidal rule","Quadrature lab"],["11","Simpson's rule and error","Quadrature comparison"],["12","Gaussian elimination","Linear-system lab"],["13","LU factorization","LU implementation task"],["14","Jacobi and Gauss–Seidel methods","Iterative-solvers lab and review"]],assessment:"Theory assignments, short quizzes, computational labs, midterm/final assessment, and reproducible Python exercises.",notes:[["Section 1.3","Algorithms and Convergence","na-notes/section-1-3.html"],["Section 2.4","Order of Convergence","na-notes/section-2-4.html"],["Section 4.1","Numerical Differentiation","na-notes/section-4-1.html"],["Section 5.1","Elementary Theory of IVPs","na-notes/section-5-1.html"],["Section 5.2","Euler’s Method","na-notes/section-5-2.html"],["Section 5.4","Runge–Kutta Methods","na-notes/section-5-4.html"],["Section 5.9","Higher-Order Equations and Systems","na-notes/section-5-9.html"]]},
 "quantitative-reasoning-ii":{title:"Quantitative Reasoning II",status:"Current · Fall 2026",institution:"Government Islamia Science College, Sukkur",audience:"BS Zoology · Part I · 2nd Semester",schedule:"Monday–Wednesday, 9:00–10:00 AM",summary:"Quantitative problem solving for life-science students, emphasizing interpretation, proportional reasoning, data, probability, models, and applications.",topics:["Ratios, rates and proportions","Percent change and growth","Scientific notation and estimation","Functions and graphical interpretation","Descriptive statistics","Probability","Linear and exponential models","Quantitative interpretation in biological contexts"],weeks:[["1","Diagnostic review; quantitative language and estimation","Written practice"],["2","Ratios, proportions and unit rates","Weekly assignment"],["3","Percentages, percent change and applications","Weekly assignment"],["4","Scientific notation, orders of magnitude and units","Monthly MCQ review"],["5","Variables, formulas and rearrangement","Weekly assignment"],["6","Functions and tables","Weekly assignment"],["7","Graphs and rates of change","Graph interpretation task"],["8","Linear models","Weekly assignment"],["9","Exponential growth and decay","Application worksheet"],["10","Descriptive statistics","Weekly assignment"],["11","Probability fundamentals","Monthly MCQ review"],["12","Counting and simple probability models","Weekly assignment"],["13","Interpreting data in biological examples","Mini data task"],["14","Integrated quantitative reasoning and revision","Comprehensive review"]],assessment:"One-hour classes Monday–Wednesday, weekly written assignments, monthly MCQ assessments, and cumulative revision."},
 "numerical-computations":{title:"Numerical Computations",status:"Current · Fall 2026",institution:"Government Islamia Science College, Sukkur",audience:"BS Computer Science · Part III · 6th Semester",schedule:"Monday–Wednesday, 10:00–11:00 AM",summary:"Numerical Computations for BS Computer Science students. The official course outline and learning resources will be added when available.",topics:[]},
 "multivariable-calculus":{title:"Multivariable Calculus",status:"Current · Fall 2026",institution:"Government Islamia Science College, Sukkur",audience:"BS Computer Science · Part I · 2nd Semester",schedule:"Monday–Tuesday, 11:00 AM–12:00 PM",summary:"Multivariable Calculus for BS Computer Science students. The official course outline and learning resources will be added when available.",topics:[]},
 "applied-mathematics":{title:"Applied Mathematics",status:"Current · Fall 2026",institution:"Sukkur IBA University",audience:"BS Accounting & Finance · Section C",summary:"Applied quantitative methods for business and finance students, connecting algebraic models, functions, rates, optimization and financial applications.",topics:["Algebraic modeling","Functions","Linear models","Systems","Exponential models","Mathematics of finance","Rates of change","Optimization"],weeks:[["1","Algebra and modeling review","Practice"],["2","Functions and graphs","Assignment"],["3","Linear functions","Quiz"],["4","Systems of equations","Practice"],["5","Exponential functions","Assignment"],["6","Logarithms","Practice"],["7","Finance applications","Quiz"],["8","Rates of change","Assignment"],["9","Derivative ideas","Practice"],["10","Marginal analysis","Assignment"],["11","Optimization","Practice"],["12","Multivariable applications","Quiz"],["13","Integrated business applications","Case-style exercise"],["14","Review","Review set"]],assessment:"Problem sets, quizzes, assignments, worked business applications and examinations."},
 "math-content-iii":{title:"Mathematics Content III",status:"Current · Fall 2026",institution:"Sukkur IBA University",audience:"B.Ed · Semester V",summary:"Concept-focused mathematics for future teachers, emphasizing functions, limits, continuity, and clear mathematical explanation.",topics:["Functions","Graphs","Limits","One-sided limits","Continuity","Graphical reasoning","Squeeze Theorem","Epsilon–delta ideas"],weeks:[["1","Functions and representations","Practice"],["2","Domain, range and graphs","Assignment"],["3","Introduction to limits","Graphical worksheet"],["4","One-sided and two-sided limits","Quiz"],["5","Limit laws","Assignment"],["6","Continuity","Practice"],["7","Discontinuities","Graph task"],["8","Squeeze Theorem","Assignment"],["9","Epsilon–delta concept","Guided examples"],["10","Derivative motivation","Practice"],["11","Derivative rules","Assignment"],["12","Applications","Quiz"],["13","Pedagogical explanation of calculus concepts","Teaching task"],["14","Review","Review set"]],assessment:"Conceptual exercises, graphical questions, assignments, quizzes, and teaching-oriented explanations."},
-"linear-algebra-ii":{title:"Linear Algebra II",status:"Summer 2026 Archive",institution:"Sukkur IBA University",audience:"BS Mathematics",summary:"Advanced linear algebra emphasizing vector spaces, transformations, eigenstructure, inner-product spaces and applications.",topics:["Vector spaces","Subspaces and bases","Dimension","Linear transformations","Matrix representations","Eigenvalues and eigenvectors","Diagonalization","Inner-product spaces","Orthogonality"],assessment:"Problem sets, quizzes, assignments and final assessment; final summer meetings included online delivery."},
-"foundation-mathematics":{title:"Foundation Mathematics / NTHP",status:"2026 Archive",institution:"Sukkur IBA University",audience:"Foundation / NTHP students",summary:"Foundation-semester mathematics supporting university readiness through algebra, functions, equations, geometry and problem solving.",topics:["Algebraic manipulation","Equations and inequalities","Functions","Coordinate geometry","Exponents and logarithms","Sequences","Trigonometric foundations","Problem solving"],assessment:"Central quizzes, written exercises, problem-solving activities and mathematics-olympiad preparation."},
+"linear-algebra-ii":{title:"Linear Algebra II",status:"Summer 2026 · Previously taught",institution:"Sukkur IBA University",audience:"BS Mathematics",summary:"Advanced linear algebra emphasizing vector spaces, transformations, eigenstructure, inner-product spaces and applications.",topics:["Vector spaces","Subspaces and bases","Dimension","Linear transformations","Matrix representations","Eigenvalues and eigenvectors","Diagonalization","Inner-product spaces","Orthogonality"],assessment:"Problem sets, quizzes, assignments and final assessment; final summer meetings included online delivery."},
+"foundation-mathematics":{title:"Foundation Mathematics / NTHP",status:"Spring 2026 · Previously taught",institution:"Sukkur IBA University",audience:"Foundation / NTHP students",summary:"Foundation-semester mathematics supporting university readiness through algebra, functions, equations, geometry and problem solving.",topics:["Algebraic manipulation","Equations and inequalities","Functions","Coordinate geometry","Exponents and logarithms","Sequences","Trigonometric foundations","Problem solving"],assessment:"Central quizzes, written exercises, problem-solving activities and mathematics-olympiad preparation."},
 "differential-equations":{title:"Differential Equations",status:"Current · Fall 2026",institution:"Government Islamia Science College, Sukkur",audience:"BS Computer Science · Part II · 4th Semester",schedule:"Thursday, 10:00–11:00 AM; Friday, 9:45–10:30 AM",summary:"Ordinary differential equations with analytical methods, modeling and qualitative interpretation.",topics:["First-order ODEs","Separable equations","Linear equations","Exact equations","Second-order ODEs","Systems","Laplace transforms","Modeling"]},
 "probability-statistics":{title:"Statistics and Probability",status:"Current · Fall 2026",institution:"Government Islamia Science College, Sukkur",audience:"BS Computer Science · Part II · 4th Semester",schedule:"Thursday, 11:00 AM–12:00 PM; Friday, 10:30–11:15 AM",summary:"Probability models, random variables, descriptive statistics, distributions, estimation and introductory inference.",topics:["Descriptive statistics","Counting","Probability","Random variables","Discrete distributions","Continuous distributions","Sampling","Estimation","Hypothesis testing"]},
 "calculus-analytical-geometry":{title:"Calculus & Analytical Geometry",status:"Archive",institution:"Government Islamia Science College / university teaching portfolio",audience:"BS Computer Science / undergraduate",summary:"Single-variable calculus integrated with coordinate and analytical geometry.",topics:["Functions and graphs","Limits","Derivatives","Applications","Integration","Conics","Parametric curves","Polar coordinates"]},
-"math-content-ii":{title:"Mathematics Content II",status:"Archive",institution:"Sukkur IBA University",audience:"B.Ed",summary:"Mathematical content for prospective teachers with emphasis on conceptual understanding, representation and explanation.",topics:["Algebraic reasoning","Functions","Geometry","Measurement","Data","Probability","Pedagogical representations"]}
+"math-content-ii":{title:"Mathematics Content II",status:"Fall 2022 & 2023 · Previously taught",institution:"Sukkur IBA University",audience:"B.Ed",summary:"Mathematical content for prospective teachers with emphasis on conceptual understanding, representation and explanation.",topics:["Algebraic reasoning","Functions","Geometry","Measurement","Data","Probability","Pedagogical representations"]}
 };
+// Semester-wise teaching history. Only Fall 2026 college sessions have a supplied timetable.
+window.TEACHING_TERMS=[
+  {
+    "term": "Summer 2026",
+    "courses": [
+      {
+        "name": "Linear Algebra II",
+        "program": "Mathematics",
+        "slug": "linear-algebra-ii"
+      },
+      {
+        "name": "Numerical Analysis",
+        "program": "Mathematics",
+        "slug": "numerical-analysis-i"
+      }
+    ]
+  },
+  {
+    "term": "Spring 2026",
+    "courses": [
+      {
+        "name": "Foundation Semester Mathematics",
+        "program": "Foundation Program",
+        "slug": "foundation-mathematics"
+      },
+      {
+        "name": "National Talent Hunt Program (NTHP) 2026",
+        "program": "Foundation Mathematics"
+      }
+    ]
+  },
+  {
+    "term": "Fall 2025",
+    "courses": [
+      {
+        "name": "Multivariate Calculus",
+        "program": "Computer Science"
+      }
+    ]
+  },
+  {
+    "term": "Summer 2025",
+    "courses": [
+      {
+        "name": "Linear Algebra",
+        "program": "Mathematics"
+      },
+      {
+        "name": "Discrete Structures",
+        "program": "Computer Science"
+      }
+    ]
+  },
+  {
+    "term": "Fall 2024",
+    "courses": [
+      {
+        "name": "Discrete Structures",
+        "program": "Computer Science"
+      }
+    ]
+  },
+  {
+    "term": "Fall 2023",
+    "courses": [
+      {
+        "name": "General Mathematics"
+      },
+      {
+        "name": "Mathematics Content II",
+        "program": "Education",
+        "slug": "math-content-ii"
+      }
+    ]
+  },
+  {
+    "term": "Summer 2023",
+    "courses": [
+      {
+        "name": "Numerical Methods",
+        "program": "Mathematics"
+      },
+      {
+        "name": "Precalculus",
+        "program": "Computer Science"
+      }
+    ]
+  },
+  {
+    "term": "Spring 2023",
+    "courses": [
+      {
+        "name": "College Algebra",
+        "program": "Business Administration"
+      }
+    ]
+  },
+  {
+    "term": "Winter 2023",
+    "courses": [
+      {
+        "name": "Business Calculus",
+        "program": "Business Administration"
+      }
+    ]
+  },
+  {
+    "term": "Fall 2022",
+    "courses": [
+      {
+        "name": "General Mathematics"
+      },
+      {
+        "name": "Mathematics Content II",
+        "program": "Education",
+        "slug": "math-content-ii"
+      }
+    ]
+  },
+  {
+    "term": "Spring 2022",
+    "courses": [
+      {
+        "name": "Sindh Talent Hunt Program (STHP)",
+        "program": "Foundation Semester Mathematics"
+      }
+    ]
+  },
+  {
+    "term": "Fall 2019",
+    "courses": [
+      {
+        "name": "National Talent Hunt Program (NTHP)",
+        "program": "Foundation Semester Mathematics"
+      }
+    ]
+  }
+];
+window.TEACHING_UNDATED=[{"name":"Calculus & Analytical Geometry","program":"BS Computer Science","slug":"calculus-analytical-geometry"}];
