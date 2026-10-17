@@ -9,7 +9,7 @@ window.COURSE_DATA={
 "foundation-mathematics":{title:"Foundation Mathematics / NTHP",status:"Spring 2026 · Previously taught",institution:"Sukkur IBA University",audience:"Foundation / NTHP students",summary:"Foundation-semester mathematics supporting university readiness through algebra, functions, equations, geometry and problem solving.",topics:["Algebraic manipulation","Equations and inequalities","Functions","Coordinate geometry","Exponents and logarithms","Sequences","Trigonometric foundations","Problem solving"],assessment:"Central quizzes, written exercises, problem-solving activities and mathematics-olympiad preparation."},
 "differential-equations":{title:"Differential Equations",status:"Current · Fall 2026",institution:"Government Islamia Science College, Sukkur",audience:"BS Computer Science · Part II · 4th Semester",schedule:"Thursday, 10:00–11:00 AM; Friday, 9:45–10:30 AM",summary:"Ordinary differential equations with analytical methods, modeling and qualitative interpretation.",topics:["First-order ODEs","Separable equations","Linear equations","Exact equations","Second-order ODEs","Systems","Laplace transforms","Modeling"]},
 "probability-statistics":{title:"Statistics and Probability",status:"Current · Fall 2026",institution:"Government Islamia Science College, Sukkur",audience:"BS Computer Science · Part II · 4th Semester",schedule:"Thursday, 11:00 AM–12:00 PM; Friday, 10:30–11:15 AM",summary:"Probability models, random variables, descriptive statistics, distributions, estimation and introductory inference.",topics:["Descriptive statistics","Counting","Probability","Random variables","Discrete distributions","Continuous distributions","Sampling","Estimation","Hypothesis testing"]},
-"calculus-analytical-geometry":{title:"Calculus & Analytical Geometry",status:"Archive",institution:"Government Islamia Science College / university teaching portfolio",audience:"BS Computer Science / undergraduate",summary:"Single-variable calculus integrated with coordinate and analytical geometry.",topics:["Functions and graphs","Limits","Derivatives","Applications","Integration","Conics","Parametric curves","Polar coordinates"]},
+"calculus-analytical-geometry":{title:"Calculus & Analytical Geometry",status:"Spring 2026 · Previously taught",institution:"Mathematics teaching portfolio",audience:"BS Computer Science · 1st Semester",summary:"Single-variable calculus integrated with coordinate and analytical geometry.",topics:["Functions and graphs","Limits","Derivatives","Applications","Integration","Conics","Parametric curves","Polar coordinates"]},
 "math-content-ii":{title:"Mathematics Content II",status:"Fall 2022 & 2023 · Previously taught",institution:"Sukkur IBA University",audience:"B.Ed",summary:"Mathematical content for prospective teachers with emphasis on conceptual understanding, representation and explanation.",topics:["Algebraic reasoning","Functions","Geometry","Measurement","Data","Probability","Pedagogical representations"]}
 };
 // Semester-wise teaching history. Only Fall 2026 college sessions have a supplied timetable.
@@ -40,6 +40,11 @@ window.TEACHING_TERMS=[
       {
         "name": "National Talent Hunt Program (NTHP) 2026",
         "program": "Foundation Mathematics"
+      },
+      {
+        "name": "Calculus & Analytical Geometry",
+        "program": "BS Computer Science · 1st Semester",
+        "slug": "calculus-analytical-geometry"
       }
     ]
   },
@@ -150,4 +155,4 @@ window.TEACHING_TERMS=[
     ]
   }
 ];
-window.TEACHING_UNDATED=[{"name":"Calculus & Analytical Geometry","program":"BS Computer Science","slug":"calculus-analytical-geometry"}];
+window.TEACHING_UNDATED=[];
