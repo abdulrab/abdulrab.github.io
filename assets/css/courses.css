@@ -49,3 +49,8 @@
 .teaching-page .section-head h2{font-size:clamp(1.7rem,3vw,2.65rem);line-height:1.16;letter-spacing:-.035em;max-width:100%;overflow-wrap:normal}
 .teaching-page .section-head p{margin:12px 0 0;max-width:950px;line-height:1.6}
 @media(max-width:620px){.teaching-page .section-head h2{font-size:clamp(1.6rem,5.2vw,2rem)}.teaching-page .section-head p{margin-top:10px}}
+
+/* Keep the teaching archive heading on a single full-width line. */
+.teaching-page .semester-archive-heading{display:block;width:100%;margin-bottom:22px}
+.teaching-page .semester-archive-heading h2{font-size:clamp(.84rem,2.65vw,2.7rem);line-height:1.18;white-space:nowrap;text-wrap:nowrap;overflow-wrap:normal;word-break:normal;max-width:100%;letter-spacing:-.035em}
+.teaching-page .semester-archive-heading p{margin:11px 0 0;max-width:950px}
