@@ -21,7 +21,7 @@ Professional academic portfolio and openly accessible mathematics teaching resou
 3. Official course outlines belong under `assets/course-outlines/` **after** the author supplies approved files. Do not describe provisional teaching plans as official outlines.
 4. Update the published journal citations in `research.html` when new research appears.
 5. Update the books and DOI records in `books.html`; for a direct PDF download button, use the exact verified Zenodo file link. The Class XI cover is `assets/books/class-xi-cover.webp`.
-6. Replace `assets/cv/Abdul_Rab_CV.pdf` when a revised CV becomes available.
+6. Update the CV text in `cv.html` when a revised CV becomes available.
 7. Update site theme in `assets/css/site.css`, resource layouts in `assets/css/courses.css`, and book styles in `assets/css/books.css`.
 
 ## Safe publishing
