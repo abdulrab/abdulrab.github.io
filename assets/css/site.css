@@ -52,18 +52,15 @@ html{scroll-padding-top:90px}
 .narrow-text{max-width:880px}
 .narrow-text h2{font-family:Georgia,serif}
 .fine-print{font-size:.88rem;color:var(--muted)}
-.cv-summary-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
-.cv-summary-grid .card{padding:22px}
-.cv-summary-grid h2{font-family:Georgia,serif;font-size:1.3rem}
 .contact-card h2{font-size:1.22rem;overflow-wrap:anywhere}
 .coming-soon{margin-top:24px;padding:20px 24px;border:1px solid var(--line);border-radius:14px}
 .coming-soon h3{margin:0 0 6px}.coming-soon p{margin:0;color:var(--muted)}
 .featured-book{grid-template-columns:minmax(145px,230px) minmax(0,1fr)}
 .featured-book .book-cover{max-width:225px}
 .featured-book h2{font-family:Georgia,serif;font-size:clamp(1.4rem,3vw,2rem);line-height:1.2;margin:8px 0 14px}
-@media(max-width:980px){.highlights-grid,.cv-summary-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:980px){.highlights-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:850px){.feature-grid{grid-template-columns:1fr}.hero-portrait{max-width:300px}}
-@media(max-width:620px){.highlights-grid,.cv-summary-grid{grid-template-columns:1fr}.mini-book{align-items:flex-start}.hero-portrait{width:min(100%,300px)}.hero-portrait img{height:320px}.featured-book{grid-template-columns:1fr}.site-footer{margin-top:20px}}
+@media(max-width:620px){.highlights-grid{grid-template-columns:1fr}.mini-book{align-items:flex-start}.hero-portrait{width:min(100%,300px)}.hero-portrait img{height:320px}.featured-book{grid-template-columns:1fr}.site-footer{margin-top:20px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.card,.btn{transition:none!important;transform:none!important}}
 
 /* Homepage layout: wider desktop canvas, compact sections and an uncramped heading.
@@ -100,4 +97,252 @@ html{scroll-padding-top:90px}
   .home-page .highlights-grid .card{padding:22px}
   .home-page .hero-portrait{max-width:290px}
   .home-page .hero-portrait img{height:320px}
+}
+
+.cv-head {
+  padding: clamp(36px, 5vw, 64px) 0 32px;
+  background: linear-gradient(135deg, var(--bg), #edf4f1 65%, var(--bg));
+  border-bottom: 1px solid var(--line);
+}
+
+.cv-head .cv-role {
+  margin: 12px 0 0;
+  color: var(--ink);
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.cv-head .cv-affiliation {
+  margin: 2px 0 0;
+  font-size: 1rem;
+}
+
+.cv-contact {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 22px;
+  margin: 12px 0 0;
+  padding: 0;
+  list-style: none;
+  color: var(--muted);
+  font-size: .93rem;
+}
+
+.cv-contact a {
+  display: inline-block;
+  padding-block: 5px;
+  text-decoration: underline;
+  text-underline-offset: .2em;
+}
+
+.cv-contact li:last-child {
+  padding-block: 5px;
+}
+
+.cv-layout {
+  display: grid;
+  grid-template-columns: 14rem minmax(0, 1fr);
+  align-items: start;
+  gap: 24px;
+  padding-block: 28px 56px;
+}
+
+.cv-index,
+.cv-section {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+}
+
+.cv-index {
+  position: sticky;
+  top: 94px;
+  padding: 16px;
+}
+
+.cv-index p {
+  margin: 0 8px 6px;
+  font-weight: 750;
+}
+
+.cv-index ul {
+  display: grid;
+  gap: 2px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cv-index a {
+  display: block;
+  padding: 7px 8px;
+  border-radius: 6px;
+  color: var(--accent);
+  font-size: .9rem;
+  font-weight: 650;
+  line-height: 1.35;
+  text-decoration: none;
+}
+
+.cv-index a:hover,
+.cv-index a:focus-visible {
+  background: #edf4f1;
+  text-decoration: underline;
+  text-underline-offset: .18em;
+}
+
+.cv-sections {
+  display: grid;
+  gap: 18px;
+}
+
+.cv-section {
+  min-width: 0;
+  padding: clamp(18px, 3vw, 32px);
+}
+
+.cv-section h2 {
+  margin: 0;
+  font-family: Georgia, serif;
+  font-size: clamp(1.55rem, 3vw, 2rem);
+  line-height: 1.2;
+  letter-spacing: -.025em;
+}
+
+.cv-entry {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) max-content;
+  align-items: baseline;
+  gap: 4px 20px;
+  margin-top: 16px;
+  padding-top: 16px;
+  border-top: 1px solid var(--line);
+}
+
+.cv-entry h3 {
+  margin: 0;
+  font-size: 1.08rem;
+  line-height: 1.4;
+}
+
+.cv-entry h3 a {
+  color: var(--accent);
+  text-decoration-thickness: .06em;
+  text-underline-offset: .19em;
+}
+
+.cv-date,
+.cv-meta {
+  margin: 0;
+  color: var(--muted);
+  font-size: .9rem;
+}
+
+.cv-date {
+  grid-column: 2;
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+.cv-subsection h3,
+.cv-meta,
+.cv-details {
+  grid-column: 1 / -1;
+}
+
+.cv-details {
+  margin: 4px 0 0;
+  max-width: 78ch;
+}
+
+.cv-details p {
+  margin: 0;
+}
+
+.cv-details p + p,
+.cv-details li + li {
+  margin-top: 4px;
+}
+
+ul.cv-details {
+  padding-inline-start: 1.25em;
+}
+
+.cv-coursework {
+  columns: 2 15rem;
+  column-gap: 32px;
+}
+
+.cv-coursework li {
+  break-inside: avoid;
+}
+
+.cv-semesters {
+  max-width: none;
+}
+
+.cv-semesters summary {
+  width: fit-content;
+  padding-block: 8px;
+  color: var(--accent);
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.cv-semesters summary:hover {
+  text-decoration: underline;
+  text-underline-offset: .18em;
+}
+
+.cv-semesters dl,
+.cv-skills dl {
+  margin: 0;
+}
+
+.cv-semesters dl > div {
+  display: grid;
+  grid-template-columns: 7.5rem minmax(0, 1fr);
+  gap: 2px 12px;
+  padding-block: 8px;
+  border-top: 1px solid var(--line);
+}
+
+.cv-semesters dt,
+.cv-skills dt {
+  font-weight: 700;
+}
+
+.cv-semesters dd,
+.cv-skills dd {
+  margin: 0;
+}
+
+.cv-skills {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px 28px;
+  margin-top: 16px;
+  padding-top: 16px;
+  border-top: 1px solid var(--line);
+}
+
+.cv-skills dl > div + div {
+  margin-top: 8px;
+}
+
+.cv-page .site-footer {
+  margin-top: 0;
+}
+
+@media (max-width: 850px) {
+  .cv-layout { grid-template-columns: minmax(0, 1fr); gap: 18px; }
+  .cv-index { position: static; }
+  .cv-index ul { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+@media (max-width: 600px) {
+  .cv-entry,
+  .cv-skills { grid-template-columns: minmax(0, 1fr); }
+  .cv-date { grid-column: 1; text-align: left; }
+  .cv-semesters dl > div { grid-template-columns: minmax(0, 1fr); }
 }
